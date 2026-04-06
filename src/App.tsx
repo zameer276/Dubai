@@ -181,7 +181,7 @@ export default function App() {
       </AnimatePresence>
 
       {/* --- Hero Section --- */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 pb-20">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
@@ -193,7 +193,7 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black" />
         </div>
 
-        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+        <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
           <motion.span 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -206,7 +206,7 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-5xl md:text-8xl font-light tracking-tight mb-8 leading-[1.1]"
+            className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-light tracking-tight mb-8 leading-[1.1]"
           >
             Premium Grooming <br />
             <span className="italic font-serif text-[#C5A059]">Experience</span> in Dubai
@@ -248,7 +248,7 @@ export default function App() {
         <motion.div 
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50"
+          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 hidden lg:flex"
         >
           <span className="text-[10px] uppercase tracking-widest">Scroll</span>
           <div className="w-[1px] h-12 bg-gradient-to-b from-[#C5A059] to-transparent" />
