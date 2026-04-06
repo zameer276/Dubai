@@ -1,0 +1,5 @@
+{
+  "name": "London Base Barbershop",
+  "description": "Premium grooming experience in Dubai. Expert barbers, modern styles, and luxury experience in Business Bay.",
+  "requestFramePermissions": ["geolocation"]
+}
